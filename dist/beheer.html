@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beheer - Say My Name</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+
+    <div>
+        <header>
+            <div class="white-banner">
+                <div class="wrapper cfx">
+                    <nav class="site-switch">
+                        <ul>
+                        </ul>
+                    </nav>
+                    <nav class="nav-utility">
+                        <ul>
+                            <li><a href="#">Jasper Van de Vloet</a></li>
+                        </ul>
+
+                    </nav>
+                </div>
+            </div>
+            <div class="black-banner">
+                <div class="wrapper cfx">
+                    <div id="logo">
+                        <img src="svg/KdG_H_Closed_White.svg" alt="Logo van Karel de Grote Hogeschool">
+                    </div>
+                    <nav class="nav-main-responsive">
+                        <ul>
+                            <li class="search"><a class="search-btn-resp" href="#">Zoeken</a></li>
+                            <li class="menu">
+                                <a href="#">
+                                    <div class="icon-menu">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </div>
+                                    Menu
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="nav-main nav-full">
+                        <ul>
+                            <li class="home"><a href="index.html">Home</a></li>
+                            <li class="students"><a href="studenten.html">Studenten</a></li>
+                            <li class="practice"><a href="oefenen.html">Oefenen</a></li>
+                            <li class="manage active"><a href="beheer.html">Beheer</a></li>
+                        </ul>
+                    </nav>
+                    <div class="searchbox nav-main">
+                        <input type="search" id="searchbox-input"/>
+                        <button id="searchbox-btn">
+                            <span class="fa fa-search" aria-hidden="false"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="black-banner">
+                <div class="crumbtrail">
+                    <div class="wrapper">
+                        <ol>
+                            <li><a href="index.html">Home</a></li>
+                            <li>Beheer</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="black-banner">
+                <div class="wrapper">
+                    <div class="arrow">
+                        <nav class="nav-sub">
+
+                            <div class="nav-group third">
+                                <h2>Studenten</h2>
+                                <ul>
+                                    <li class="active"><a href="#">Overzicht</a></li>
+                                    <li><a href="beheer-student-toevoegen.html">Toevoegen</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="nav-group third">
+                                <h2>Klasgroepen</h2>
+                                <ul>
+                                    <li><a href="#">Overzicht</a></li>
+                                    <li><a href="#">Toevoegen</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="nav-group third">
+                                <h2>Vakken</h2>
+                                <ul>
+                                    <li><a href="#">Overzicht</a></li>
+                                    <li><a href="#">Toevoegen</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="wrapper">
+                <div class="">
+
+                    <table class="manage-people">
+                       <thead>
+                           <tr>
+                               <th>&nbsp;</th>
+                               <th>Foto</th>
+                               <th>Naam</th>
+                               <th>Klasgroep(en)</th>
+                               <th>Vak(ken)</th>
+                           </tr>
+                       </thead>
+
+                       <tbody>
+                           <tr class="row">
+                               <td>
+                                   <input type="checkbox" name="student-delete" value="anniek-de-water">
+                               </td>
+                               <td>
+                                  <div class="avatar">
+                                       <img src="images/studenten/anniek-de-water.jpg" alt="Anniek De Water">
+                                   </div>
+                               </td>
+                               <td>
+                                   Anniek De Water
+                               </td>
+                               <td>
+                                   MT1 - groep a
+                               </td>
+                               <td>
+                                   MT1 Web Standards 1, MT1 Animation 1
+                               </td>
+                           </tr>
+                           <tr class="row">
+                               <td>
+                                   <input type="checkbox" name="student-delete" value="dillan-morel">
+                               </td>
+                               <td>
+                                  <div class="avatar">
+                                       <img src="images/studenten/dillan-morel.jpg" alt="Dillan Morel">
+                                   </div>
+                               </td>
+                               <td>
+                                   Dillan Morel
+                               </td>
+                               <td>
+                                   MT1 - groep b, MT2 Web&amp;UX a
+                               </td>
+                               <td>
+                                   MT1 Web Graphics 1
+                               </td>
+                           </tr>
+                           <tr class="row">
+                               <td>
+                                   <input type="checkbox" name="student-delete" value="flynn-van-niel">
+                               </td>
+                               <td>
+                                  <div class="avatar">
+                                      <img src="images/studenten/flynn-van-niel.jpg" alt="Flynn van Niel">
+                                  </div>
+                               </td>
+                               <td>
+                                   Flynn van Niel
+                               </td>
+                               <td>
+                                   MT1 - groep b
+                               </td>
+                               <td>
+                                   MT1 Web Standards 1, MT1 Web Graphics 1
+                               </td>
+                           </tr>
+                           <tr class="row">
+                               <td>
+                                   <input type="checkbox" name="student-delete" value="hans-de-langen">
+                               </td>
+                               <td>
+                                   <div class="avatar">
+                                       <img src="images/studenten/hans-de-langen.jpg" alt="Hans De Langen">
+                                   </div>
+                               </td>
+                               <td>
+                                   Hans De Langen
+                               </td>
+                               <td>
+                                   MT1 - groep a
+                               </td>
+                               <td>
+                                   MT1 Web Standards 1, MT1 Web Graphics 1
+                               </td>
+                           </tr>
+                           <tr class="row">
+                               <td>
+                                   <input type="checkbox" name="student-delete" value="indigo-van-denderen">
+                               </td>
+                               <td>
+                                   <div class="avatar">
+                                       <img src="images/studenten/indigo-van-denderen.jpg" alt="Indigo Van Denderen">
+                                   </div>
+                               </td>
+                               <td>
+                                   Indigo Van Denderen
+                               </td>
+                               <td>
+                                   MT1 - groep b
+                               </td>
+                               <td>
+                                   MT1 Animation 1
+                               </td>
+                           </tr>
+                           <tr class="row">
+                               <td>
+                                   <input type="checkbox" name="student-delete" value="jense-wallenburg">
+                               </td>
+                               <td>
+                                   <div class="avatar">
+                                       <img src="images/studenten/jense-wallenburg.jpg" alt="Jense Wallenburg">
+                                   </div>
+                               </td>
+                               <td>
+                                   <a class="underline" href="beheer-student-detail.html">Jense Wallenburg</a>
+                               </td>
+                               <td>
+                                   MT1 - groep a
+                               </td>
+                               <td>
+                                   MT1 Web Standards 1, MT1 Animation 1
+                               </td>
+                           </tr>
+                           <tr class="row">
+                               <td>
+                                   <input type="checkbox" name="student-delete" value="lander-kloosterman">
+                               </td>
+                               <td>
+                                   <div class="avatar">
+                                       <img src="images/studenten/lander-kloosterman.jpg" alt="Lander Kloosterman">
+                                   </div>
+                               </td>
+                               <td>
+                                   Lander Kloosterman
+                               </td>
+                               <td>
+                                   MT1 - groep c
+                               </td>
+                               <td>
+                                   MT1 Web Standards 1, MT1 Web Graphics 1, MT1 Animation 1
+                               </td>
+                           </tr>
+                           <tr class="row">
+                               <td>
+                                   <input type="checkbox" name="student-delete" value="lander-ten-hoven">
+                               </td>
+                               <td>
+                                   <div class="avatar">
+                                       <img src="images/studenten/lander-ten-hoven.jpg" alt="Lander Ten Hove">
+                                   </div>
+                               </td>
+                               <td>
+                                   Lander Ten Hove
+                               </td>
+                               <td>
+                                   MT1 - groep b
+                               </td>
+                               <td>
+                                   MT1 Web Standards 1, MT1 Animation 1
+                               </td>
+                           </tr>
+                           <tr class="row">
+                               <td>
+                                   <input type="checkbox" name="student-delete" value="marlene-van-de-laak">
+                               </td>
+                               <td>
+                                   <div class="avatar">
+                                       <img src="images/studenten/marlene-van-de-laak.jpg" alt="Marlene van de Laak">
+                                   </div>
+                               </td>
+                               <td>
+                                   Marlene van de Laak
+                               </td>
+                               <td>
+                                   MT1 - groep c
+                               </td>
+                               <td>
+                                   MT1 Web Standards 1, MT1 Web Graphics 1
+                               </td>
+                           </tr>
+                           <tr class="row">
+                               <td>
+                                   <input type="checkbox" name="student-delete" value="mattijs-palmen">
+                               </td>
+                               <td>
+                                   <div class="avatar">
+                                       <img src="images/studenten/mattijs-palmen.jpg" alt="Mattijs Palmen">
+                                   </div>
+                               </td>
+                               <td>
+                                   Mattijs Palmen
+                               </td>
+                               <td>
+                                   MT1 - groep a
+                               </td>
+                               <td>
+                                   MT1 Web Standards 1, MT1 Web Graphics 1, MT1 Animation 1
+                               </td>
+                           </tr>
+
+                       </tbody>
+
+                       <tfoot>
+                           <tr>
+                               <th colspan="5">
+                                   <ul class="paging">
+                                       <li>Pagina</li>
+                                       <li class="active"><a href="#">1</a></li>
+                                       <li><a href="#">2</a></li>
+                                   </ul>
+                               </th>
+                           </tr>
+                       </tfoot>
+                    </table>
+
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="black-banner">
+                <div class="wrapper">
+                    <div class="nav-footer">
+                        <div class="nav-group third">
+                            <h2>Karel de Grote<br>Hogeschool</h2>
+                            <ul>
+                                <li><a href="http://www.kdg.be">www.kdg.be</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="nav-group third">
+                            <h2>KdG Intranet</h2>
+                            <ul>
+                                <li><a href="https://intranet.medewerker.kdg.be">intranet.medewerker.kdg.be</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="nav-group third">
+                            <h2>Mijn KdG account</h2>
+                            <ul>
+                                <li><a href="#">Mijn Profiel beheren</a></li>
+                                <li><a href="#">Mijn Studenten</a></li>
+                                <li><a href="#">Mijn Vakken</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

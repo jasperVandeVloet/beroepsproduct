@@ -1,0 +1,93 @@
+@media screen and (max-width: 1000px)
+{
+    #logo, .nav-main { float: none; }
+    
+    .nav-main-responsive {
+        display: block;
+    }
+    
+    .nav-main {
+        display: none;
+        margin: 0 -3rem;
+    }
+    
+    .nav-main li { 
+        float: none; 
+    }
+    
+    .nav-main li.active a {
+        background-color: #a9cb59;
+        color: #fff;
+    }
+    
+    .nav-main li a:hover {
+        background-color: #a9cb59;
+    }
+    
+    .nav-main .search { display: none; }
+    
+    .nav-main .home a,
+    .nav-main .students a,
+    .nav-main .practice a,
+    .nav-main .manage a
+    {    
+        background-color: #7ab82c;
+        color: #fff;
+        position: relative;
+        line-height: 40px;
+        margin: 0;
+        padding: 0 0 0 60px;
+        border: none;
+    }
+    
+    .nav-main .home a::before,
+    .nav-main .students a::before,
+    .nav-main .practice a::before,
+    .nav-main .manage a::before,
+    .nav-main .search a::before
+    {
+        font-size: 1.7rem;
+        position: absolute;
+        left:10px;
+        top:5px;
+        padding: 0;
+    }
+    
+    .nav-main .active.home a::before,
+    .nav-main .active.students a::before,
+    .nav-main .active.practice a::before,
+    .nav-main .active.manage a::before,
+    .nav-main .active.search a::before
+    {
+        color: #fff;
+    }
+        
+    .bulletin-board-items article { width: 45%; }
+    
+}
+
+@media screen and (max-width: 1100px)
+{
+    .main aside, .main main {
+        float: none;
+        width: 100%;
+    }
+    
+    .third {
+        float: none;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 800px)
+{
+    .bulletin-board-items article { width: 100%; }
+}
+
+@media screen and (max-width: 600px)
+{
+    body > div {
+        min-width: 584px;   
+    }
+}

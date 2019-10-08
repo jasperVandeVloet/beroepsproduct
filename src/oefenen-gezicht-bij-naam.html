@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oefenen - Say My Name</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+
+    <div>
+        <header>
+            <div class="white-banner">
+                <div class="wrapper cfx">
+                    <nav class="site-switch">
+                        <ul>
+<!--                            <li class="active"><a href="home.html">Say my name</a></li>-->
+                        </ul>
+                    </nav>
+                    <nav class="nav-utility">
+                        <ul>
+                            <li><a href="#">Jasper Van de Vloet</a></li>
+                        </ul>
+
+                    </nav>
+                </div>
+            </div>
+            <div class="black-banner">
+                <div class="wrapper cfx">
+                    <div id="logo">
+                        <img src="svg/KdG_H_Closed_White.svg" alt="Logo van Karel de Grote Hogeschool">
+                    </div>
+                    <nav class="nav-main-responsive">
+                        <ul>
+                            <li class="search"><a class="search-btn-resp" href="#">Zoeken</a></li>
+                            <li class="menu">
+                                <a href="#">
+                                    <div class="icon-menu">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </div>
+                                    Menu
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="nav-main nav-full">
+                        <ul>
+                            <li class="home"><a href="index.html">Home</a></li>
+                            <li class="students"><a href="studenten.html">Studenten</a></li>
+                            <li class="practice active"><a class="grow" href="oefenen.html">Oefenen</a></li>
+                            <li class="manage"><a href="beheer.html">Beheer</a></li>
+                        </ul>
+                    </nav>
+                    <div class="searchbox nav-main">
+                        <input type="search" id="searchbox-input"/>
+                        <button id="searchbox-btn">
+                            <span class="fa fa-search" aria-hidden="false"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="black-banner">
+                <div class="crumbtrail">
+                    <div class="wrapper">
+                        <ol>
+                            <li><a href="index.html">Home</a></li>
+                            <li>Oefenen</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="black-banner">
+                <div class="wrapper">
+                    <div class="arrow">
+                        <nav class="nav-sub">
+
+                            <div class="nav-group third">
+                                <h2>Oefenen per ..</h2>
+                                <ul>
+                                    <li class="active"><a href="#">klasgroep</a></li>
+                                    <li><a href="#">vak</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="nav-group third">
+                                <h2>Oefenen op ..</h2>
+                                <ul>
+                                    <li><a href="#">studenten met dezelfde naam</a></li>
+                                    <li><a href="#">moeilijke namen</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="nav-group third">
+                                <h2>Statistisch</h2>
+                                <ul>
+                                    <li><a href="#">Laatst toegevoegd</a></li>
+                                    <li><a href="#">Van klasgroep veranderd</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+       <section class="main">
+            <div class="wrapper">
+               <aside>
+                    <div class="statistics">
+
+                        <h4>Klasgroep</h4>
+                        <p>MT1 - groep a</p>
+
+                        <h4>Voortgang</h4>
+                        <p>Student <strong>4</strong> van <strong>5</strong></p>
+
+                        <h4>Score</h4>
+                        <p>Je hebt <strong>1</strong> fout gemaakt op 3.<br>
+                        Je score is dus 66.6%.</p>
+
+                        <h4>Type training</h4>
+                        <ul>
+                            <li><a class="underline" href="oefenen-naam-bij-gezicht-mc.html">Naam bij gezicht - Multiple choice</a></li>
+                            <li><a class="underline" href="oefenen-naam-bij-gezicht.html">Naam bij gezicht - Invulveld</a></li>
+                            <li class="active"><a href="oefenen-gezicht-bij-naam.html">Gezicht bij naam</a></li>
+                        </ul>
+                    </div>
+                </aside>
+
+                <main>
+                    <div class="wrapper">
+                        <h2>Gezicht bij naam</h2>
+
+                        <h3>Wie van deze drie is <strong>Lander Ten Hoven</strong>?</h3>
+
+                        <form action="">
+
+                            <fieldset class="face-to-name">
+
+                                <label>
+                                    <figure class="avatar big">
+                                        <img src="images/studenten/lander-kloosterman.jpg" alt="student 1">
+                                    </figure>
+                                    <input type="radio" name="student-name" value="student 1">
+                                </label>
+
+                                <label>
+                                    <figure class="avatar big">
+                                        <img src="images/studenten/indigo-van-denderen.jpg" alt="student 2">
+                                    </figure>
+                                    <input type="radio" name="student-name" value="student 2">
+                                </label>
+
+                                <label>
+                                    <figure class="avatar big">
+                                        <img src="images/studenten/lander-ten-hoven.jpg" alt="student 3">
+                                    </figure>
+                                    <input type="radio" name="student-name" value="student 3">
+                                </label>
+
+                            </fieldset>
+
+                            <button type="submit">Verzenden</button>
+
+                        </form>
+                    </div>
+                </main>
+           </div>
+        </section>
+
+        <footer>
+            <div class="black-banner">
+                <div class="wrapper">
+                    <div class="nav-footer">
+                        <div class="nav-group third">
+                            <h2>Karel de Grote<br>Hogeschool</h2>
+                            <ul>
+                                <li><a href="http://www.kdg.be">www.kdg.be</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="nav-group third">
+                            <h2>KdG Intranet</h2>
+                            <ul>
+                                <li><a href="https://intranet.medewerker.kdg.be">intranet.medewerker.kdg.be</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="nav-group third">
+                            <h2>Mijn KdG account</h2>
+                            <ul>
+                                <li><a href="#">Mijn Profiel beheren</a></li>
+                                <li><a href="#">Mijn Studenten</a></li>
+                                <li><a href="#">Mijn Vakken</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

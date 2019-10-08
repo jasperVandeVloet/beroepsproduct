@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student aanpassen - Say My Name</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+
+    <div>
+        <header>
+            <div class="white-banner">
+                <div class="wrapper cfx">
+                    <nav class="site-switch">
+                        <ul>
+                        </ul>
+                    </nav>
+                    <nav class="nav-utility">
+                        <ul>
+                            <li><a href="#">Jasper Van de Vloet</a></li>
+                        </ul>
+
+                    </nav>
+                </div>
+            </div>
+            <div class="black-banner">
+                <div class="wrapper cfx">
+                    <div id="logo">
+                        <img src="svg/KdG_H_Closed_White.svg" alt="Logo van Karel de Grote Hogeschool">
+                    </div>
+                    <nav class="nav-main-responsive">
+                        <ul>
+                            <li class="search"><a class="search-btn-resp" href="#">Zoeken</a></li>
+                            <li class="menu">
+                                <a href="#">
+                                    <div class="icon-menu">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </div>
+                                    Menu
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="nav-main nav-full">
+                        <ul>
+                            <li class="home"><a href="index.html">Home</a></li>
+                            <li class="students"><a href="studenten.html">Studenten</a></li>
+                            <li class="practice"><a class="grow" href="oefenen.html">Oefenen</a></li>
+                            <li class="manage active"><a href="beheer.html">Beheer</a></li>
+                        </ul>
+                    </nav>
+                    <div class="searchbox nav-main">
+                        <input type="search" id="searchbox-input"/>
+                        <button id="searchbox-btn">
+                            <span class="fa fa-search" aria-hidden="false"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="black-banner">
+                <div class="crumbtrail">
+                    <div class="wrapper">
+                        <ol>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="beheer.html">Beheer</a></li>
+                            <li>Student aanpassen</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="black-banner">
+                <div class="wrapper">
+                    <div class="arrow">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+        </header>
+
+       <section class="main">
+            <div class="wrapper">
+               <aside>
+                    <div class="statistics">
+
+                        <h4>Aangemaakt op</h4>
+                        <p>Donderdag 5 september om 10:43</p>
+
+                        <h4>Laatst gewijzigd op</h4>
+                        <p>Donderdag 5 september om 12:21</p>
+
+                        <h4>Statistiek</h4>
+                        <p>Moeilijkheidsgraad van deze naam:<br><strong>Normaal</strong></p>
+                        <p>Aantal keren geoefend: <strong>11</strong></p>
+                        <p>Score: <strong class="green">8</strong> / <strong class="red">3</strong></p>
+
+                        <div class="controls">
+                            <a class="btn delete">Student verwijderen</a>
+                        </div>
+                    </div>
+                </aside>
+
+                <main>
+                    <div class="wrapper">
+                        <h2>Student details</h2>
+
+                        <form action="">
+
+                            <div class="flex">
+                                <figure class="avatar big">
+                                    <img src="images/studenten/jense-wallenburg.jpg" alt="te raden student(e)">
+                                </figure>
+                                <div>
+                                    <a class="btn">Andere foto uploaden</a><br>
+                                    <a class="btn delete">Foto verwijderen</a>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="student-firstname">Voornaam</label>
+                                <input type="text" name="student-firstname" id="student-firstname" value="Jense">
+                            </div>
+
+                            <div>
+                                <label for="student-lastname">Naam</label>
+                                <input type="text" name="student-lastname" id="student-lastname" value="Wallenburg">
+                            </div>
+
+                            <fieldset>
+                                <legend>Geslacht</legend>
+                                <label><input type="radio" name="gender" value="male" checked> Man</label>
+                                <label><input type="radio" name="gender" value="female"> Vrouw</label>
+                            </fieldset>
+
+                            <fieldset>
+                                <legend>Klasgroep(en)</legend>
+                                <label><input type="checkbox" name="group" value="a" checked> MT1 - groep a</label>
+                                <label><input type="checkbox" name="group" value="b"> MT1 - groep b</label>
+                                <label><input type="checkbox" name="group" value="c"> MT1 - groep c</label>
+                            </fieldset>
+
+                            <fieldset>
+                                <legend>Vak(ken)</legend>
+                                <label><input type="checkbox" name="course" value="web-standards-1" checked> Web Standards 1</label>
+                                <label><input type="checkbox" name="course" value="web-grpahics-1"> Web Graphics 1</label>
+                                <label><input type="checkbox" name="course" value="animation-1" checked> Animation 1</label>
+                            </fieldset>
+
+                            <button type="submit">Aanpassingen bewaren</button>
+
+                        </form>
+
+                    </div>
+                </main>
+           </div>
+        </section>
+
+        <footer>
+            <div class="black-banner">
+                <div class="wrapper">
+                    <div class="nav-footer">
+                        <div class="nav-group third">
+                            <h2>Karel de Grote<br>Hogeschool</h2>
+                            <ul>
+                                <li><a href="http://www.kdg.be">www.kdg.be</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="nav-group third">
+                            <h2>KdG Intranet</h2>
+                            <ul>
+                                <li><a href="https://intranet.medewerker.kdg.be">intranet.medewerker.kdg.be</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="nav-group third">
+                            <h2>Mijn KdG account</h2>
+                            <ul>
+                                <li><a href="#">Mijn Profiel beheren</a></li>
+                                <li><a href="#">Mijn Studenten</a></li>
+                                <li><a href="#">Mijn Vakken</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

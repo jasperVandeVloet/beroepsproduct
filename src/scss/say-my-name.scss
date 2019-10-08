@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Say-my-name';
+  src:  url('../fonts/Say-my-name.eot?drz9ca');
+  src:  url('../fonts/Say-my-name.eot?drz9ca#iefix') format('embedded-opentype'),
+    url('../fonts/Say-my-name.ttf?drz9ca') format('truetype'),
+    url('../fonts/Say-my-name.woff?drz9ca') format('woff'),
+    url('../fonts/Say-my-name.svg?drz9ca#Say-my-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Say-my-name' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Studenten:before {
+  content: "\e900";
+}
+.icon-Oefenen:before {
+  content: "\e901";
+}
+.icon-Beheer:before {
+  content: "\e902";
+}
